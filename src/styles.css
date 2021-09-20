@@ -1,0 +1,33 @@
+@import url @import
+  url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+:root {
+  --primary-color: #f87171;
+  --skin-color: #fef3c7;
+}
+.App {
+  font-family: "Playfair Display", serif;
+  margin: auto;
+  max-width: 600px;
+}
+body {
+  background-color: var(--primary-color);
+}
+
+.btnClick {
+  cursor: "pointer";
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--skin-color);
+  border-radius: 0.5rem;
+}
+.display-list {
+  text-align: left;
+  list-style-type: none;
+  display: block;
+  width: 50%;
+  padding: 20px;
+  border: 3px solid;
+  border-radius: 0.5rem;
+  margin: "2rem 0.3rem";
+  font-size: 20px;
+}
